@@ -13,3 +13,8 @@ Projeto
 
 ** Primeiro a desenvolver
   -> AI que classifica noticias
+  * SubModulos
+    -> Bot que busca noticias em sites
+    -> Banco de dados alimentado pelo bot
+    -> AI que faz a analise sintatica e semantica dos dados no banco
+    -> AI que faz a classificação da noticia em nivel de importancia
