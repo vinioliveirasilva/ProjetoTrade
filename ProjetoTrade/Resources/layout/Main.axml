@@ -7,15 +7,52 @@
     android:minHeight="25px">
     <OxyPlot.Xamarin.Android.PlotView
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
-        android:id="@+id/plotViewModel" />
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:id="@+id/plotViewModel"
+        android:layout_marginBottom="0.0dp" />
     <LinearLayout
-        android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="#FFFFFF"
-        android:id="@+id/linearLayoutModel"
-        android:layout_marginLeft="20dp" />
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:id="@+id/linearLayout1"
+        android:background="#ffffff">
+        <Button
+            android:text="Ativos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/button1"
+            android:textAllCaps="false" 
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+        <Button
+            android:text="Custodia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/button2"
+            android:textAllCaps="false"      
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+        <Button
+            android:text="Ordens"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/button3"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+        <Button
+            android:text="Conta"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/button4"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+    </LinearLayout>
 </LinearLayout>
